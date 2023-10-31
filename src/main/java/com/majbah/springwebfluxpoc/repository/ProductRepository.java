@@ -4,5 +4,5 @@ import com.majbah.springwebfluxpoc.model.Product;
 
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 
-public interface ProductRepository extends ReactiveMongoRepository<String, Product> {
+public interface ProductRepository extends ReactiveMongoRepository<Product,String> {
 }

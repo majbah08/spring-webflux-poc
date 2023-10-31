@@ -9,7 +9,6 @@ import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 @Document
-@RequiredArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
